@@ -1,0 +1,4 @@
+interface:
+  display_name: "ANX Creator"
+  short_description: "Create and validate Analyst's Notebook charts"
+  default_prompt: "Use $anx-creator to create an Analyst's Notebook .anx chart from my data."

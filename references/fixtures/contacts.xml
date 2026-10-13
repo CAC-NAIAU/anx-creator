@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contacts>
+  <person id="p1" name="Alice"/>
+  <organization id="o1" name="Example Ltd"/>
+  <relationship id="l1" from="p1" to="o1" kind="employee"/>
+</contacts>

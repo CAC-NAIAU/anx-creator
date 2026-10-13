@@ -1,0 +1,4 @@
+record_type,id,label,type,source,target,relationship
+entity,p1,Alice,Person,,,
+entity,o1,Example Ltd,Organization,,,
+link,l1,employee,Works for,p1,o1,employee

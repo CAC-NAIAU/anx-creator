@@ -1,0 +1,40 @@
+{
+  "chart": {"title": "Sample contacts"},
+  "entity_types": [
+    {"name": "Person", "icon": "Person", "colour": "#4472C4"},
+    {"name": "Organization", "icon": "Organization", "colour": "#70AD47"}
+  ],
+  "link_types": [
+    {"name": "Works for", "colour": "#666666"}
+  ],
+  "attribute_classes": [
+    {"name": "Country", "type": "text", "show_class_name": true},
+    {"name": "Confidence", "type": "number", "decimal_places": 2}
+  ],
+  "entities": [
+    {
+      "id": "person:alice",
+      "label": "Alice",
+      "type": "Person",
+      "attributes": {"Country": "Ukraine", "Confidence": 0.9},
+      "x": 0,
+      "y": 0
+    },
+    {
+      "id": "org:example",
+      "label": "Example Ltd",
+      "type": "Organization",
+      "attributes": {"Country": "Ukraine"}
+    }
+  ],
+  "links": [
+    {
+      "id": "employment:1",
+      "source": "person:alice",
+      "target": "org:example",
+      "label": "employee",
+      "type": "Works for",
+      "directed": true
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "people": [{"id": "p1", "name": "Alice"}],
+  "organizations": [{"id": "o1", "name": "Example Ltd"}],
+  "relationships": [{"id": "l1", "from": "p1", "to": "o1", "kind": "employee"}]
+}
